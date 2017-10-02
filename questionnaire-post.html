@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CS4249 Assignment 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                        <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
+                        <li class="active"><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Post-Experiment Questionnaire</h1>
+                    <hr>
+                    <p>Thank you for your participation! We would like to gather some feedback on your experience.</p>
+
+                    <p>Current participant: <span class="js-pid pid"></span></p>
+                    <br>
+                    <form id="post-expt-form">
+                      <div class="form-group">
+                          <label for="q1">Question 1 - What did you think of the timing of the entire section?</label>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="q1" id="optionsRadios1" value="radio1">
+                              Too short.
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="q1" id="optionsRadios2" value="radio2">
+                              Just right!
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="q1" id="optionsRadios3" value="radio3">
+                              Too long!
+                            </label>
+                          </div>
+                      </div>
+
+                      <br>
+
+                      <div class="form-group">
+                          <label for="q2">Question 2 - Rate the ease of use of the traditional (Ctrl-C, Ctrl-V) method on a scale of 1-5 (1 being hard to use and 5 being very easy)?</label>
+                          <input type="number" class="form-control" id="q2" name="q2">
+                      </div>
+
+                      <br>
+
+                      <div class="form-group">
+                          <label for="q3">Question 3 - Rate the ease of use of the AutoComPaste method on a scale of 1-5 (1 being hard to use and 5 being very easy)?</label>
+                          <input type="number" class="form-control" id="q3" name="q3">
+                      </div>
+
+                      <br>
+
+                      <div class="form-group">
+                          <label for="q4">Question 4 - What did you think of the timing of the entire section?</label>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="q4" id="optionsRadios1" value="radio1">
+                              Traditional (Ctrl-C, Ctrl-V)
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="q4" id="optionsRadios2" value="radio2">
+                              AutoComPaste
+                            </label>
+                          </div>
+                      </div>
+
+                      <br>
+                        <div class="form-group">
+                            <label for="q5">Question 5 -	Was there any difficulties you faced in the traditional (Ctrl-C, Ctrl-V) task?</label>
+                            <input type="text" class="form-control" id="q5" name="q5" placeholder="Enter answer">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q6">Question 6 -	Was there any difficulties you faced in the AutoComPaste task?</label>
+                            <input type="text" class="form-control" id="q6" name="q6" placeholder="Enter answer">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q7">Question 7 - Do you have any feedback on how we could have improved the trials for you?</label>
+                            <textarea name="q7" id="q7" rows="8" class="form-control" cols="80"></textarea>
+                            <!-- <input type="text"  id="q9" name="q9"> -->
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/DataStorage.js"></script>
+        <script src="js/ACPToolKit.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                $('#post-expt-form').submit(function (event) {
+                    event.preventDefault();
+                    var formResponses = $(this).serializeArray();
+                    // Do your own form validation here.
+                    ACPToolKit.downloadFormData(formResponses, 'post');
+                    ACPToolKit.clearAllData();
+                    alert('Thank you for your participation!');
+                });
+            });
+        </script>
+    </body>
+</html>

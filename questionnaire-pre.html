@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CS4249 Assignment 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li class="active"><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                        <li><a href="instructions.html">Instructions</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
+                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Pre-Experiment Questionnaire</h1>
+                    <hr>
+                    <p>Before we start the experiment, we would like to collect some information that would help us in analysing and understanding our results better.</p>
+
+                    <p>Kindly fill in the following questionnaire participant <span class="js-pid pid"></span>.</p>
+                    <br>
+                    <form id="pre-expt-form">
+                        <div class="form-group">
+                            <label for="q1">Question 1 - What is your name?</label>
+                            <input type="text" class="form-control" id="q1" name="q1">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q2">Question 2 - What is your gender?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q2" id="optionsRadios1" value="Male">
+                                Male
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q2" id="optionsRadios2" value="Female">
+                                Female
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q2" id="optionsRadios3" value="Unspecified">
+                                Unspecified
+                              </label>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q3">Question 3 - What age group do you belong to?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios4" value="15-25">
+                                15-25
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios5" value="25-45">
+                                25-45
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios6" value="45-60">
+                                45-60
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios7" value="60+">
+                                60+
+                              </label>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q4">Question 4 - What is your highest education level thus far (or working towards)?</label>
+                            <select class="form-control" name="q4">
+                                <option value="Secondary">Secondary</option>
+                                <option value="JC/Polytechnic">JC/Polytechnic</option>
+                                <option value="College Degree">College Degree</option>
+                                <option value="Graduate Degree">Graduate Degree</option>
+                                <option value="Advanced Degree">Advanced Degree</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q5">Question 5 - What is your occupation?</label>
+                            <input type="text" class="form-control" id="q5" name="q5">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q6">Question 6 - On a scale of 1- 10, how often do you have to reference multiple materials simultaneously in the course of your work? (1 being not at all and 10 being almost always)</label>
+                            <input type="number" class="form-control" id="q6" name="q6">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q7">Question 7 - On a scale of 1-10, how often do you have to copy-paste material from several sources to collate into one document? (1 being not at all and 10 being almost always)</label>
+                            <input type="number" class="form-control" id="q7" name="q7">
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q8">Question 8 - Do you find yourself copying medium other than text often?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q8" id="optionsRadios7" value="Yes!">
+                                Yes!
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q8" id="optionsRadios7" value="No, not often.">
+                                No, not often.
+                              </label>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="form-group">
+                            <label for="q9">Question 9 - Other than the current way of copy-pasting text (either by keyboard shortcuts or mouse), what wishful way would you like to perform copy-paste?</label>
+                            <textarea name="q9" id="q9" rows="8" class="form-control" cols="80"></textarea>
+                            <!-- <input type="text"  id="q9" name="q9"> -->
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="q5">Question 5 - Textarea</label>
+                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
+                        </div> -->
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/DataStorage.js"></script>
+        <script src="js/ACPToolKit.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                $('#pre-expt-form').submit(function (event) {
+                    event.preventDefault();
+                    var formResponses = $(this).serializeArray();
+                    // Do your own form validation here.
+                    ACPToolKit.downloadFormData(formResponses, 'pre');
+                    window.location = 'instructions.html';
+                });
+            });
+        </script>
+    </body>
+</html>
