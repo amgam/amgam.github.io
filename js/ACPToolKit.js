@@ -169,30 +169,42 @@ var ACPToolKit = (function () {
 })();
 
 function extractSentence(txt){ //Derived from stackoverflow
-  sentences = txt.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|");
-  return sentences[getRandomInt(0, sentences.length - 1)];
+  var sentences = txt.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|");
+  var sentence_to_return = [];
+
+  while(sentence_to_return.length < 8){
+    sentence_to_return = sentences[getRandomInt(0, sentences.length - 1)].split(' ');
+  }
+
+  return sentence_to_return.join(' ');
 }
 
 function extractPhrase(txt){
-  random_sentence = extractSentence(txt);
-  words = random_sentence.split(/[ ,]+/);
+  var random_sentence = extractSentence(txt);
+  var words = random_sentence.split(/[ ,]+/);
   words.pop();
-  var random_length = getRandomInt(3,4);
+  var random_length = getRandomInt(4,5); // ensure phrase is atleast 3-4 words long
   var random_start = getRandomInt(0, words.length - random_length - 1);
   words = words.slice(random_start, random_start + random_length);
   return words.join(' ');
 }
 
 function extractParagraph(txt){
-  sentences = txt.split("\n\n");
-  return sentences[Math.floor(Math.random() * sentences.length)];
+  var sentences = txt.split("\n\n");
+  var para_to_return = [];
+
+  while(para_to_return.length < 15){
+    para_to_return = sentences[Math.floor(Math.random() * sentences.length)].split(' ');
+  }
+
+  return para_to_return.join(' ');
 }
 
 function getRandomSubarray(arr, size) {
     var shuffled = arr.slice(0), i = arr.length, min = i - size, temp, index;
     while (i-- > min) {
-        index = Math.floor((i + 1) * Math.random());
-        temp = shuffled[index];
+        var index = Math.floor((i + 1) * Math.random());
+        var temp = shuffled[index];
         shuffled[index] = shuffled[i];
         shuffled[i] = temp;
     }

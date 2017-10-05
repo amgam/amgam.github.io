@@ -1,19 +1,23 @@
-What is absorption? Loss or dissipation of energy as it travels through a medium. Example: radio waves lose some of their energy as they travel through that atmosphere. What about this... Hello there
+The director, whose name was Roberts, thought as he paused on the edge of
+the crowd that he had never seen a countenance upon which woe had stamped
+so deep a mark. And greatly moved by it, he was about to seek some
+explanation of a scene to which appearances gave so little clue. When the
+tall but stooping figure of the Curator entered, and he found himself
+relieved from a task whose seriousness he had no difficulty in measuring.
 
-What is acceptor atoms? Trivalent atoms that accept free electrons from pentavalent atoms.
+To those who knew William Jewett well, it was evident that he had been
+called from some task which still occupied his thoughts and for the
+moment somewhat bewildered his understanding. But as he was a
+conscientious man and quite capable of taking the lead when once roused
+to the exigencies of an occasion, Mr. Roberts felt a certain interest in
+watching the slow awakening of this self-absorbed man to the awful
+circumstances which in one instant had clouded the museum in an
+atmosphere of mysterious horror.
 
-What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage.
-
-What is AC/DC? Equipment that will operate on either an AC or DC power source.
-
-What is AC generator? Device used to transform mechanical energy into AC electrical power.
-
-What is AC load line? A graph representing all possible combinations of AC output voltage and currentfor an amplifier.
-
-What is AC power supply? Power supply that delivers an AC voltage.
-
-What is active component? A component that changes the amplitude of a signal between input and output.
-
-What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies.
-
-What is active region? The region of BJT operation between saturation and cut off used for linear amplification.
+When the full realization came, which was not till a way had been made
+for him to the side of the stricken woman crouching over the dead
+child, the energy which transformed his countenance and gave character
+to his usually bent and inconspicuous figure was all if not more than the
+anxious director expected. Finding that his attempts to meet the older woman's eye only prolonged
+the suspense, the Curator addressed her quietly, and in sympathetic tones
+inquired whose child this was and how so dreadful a thing had happened.

@@ -1,15 +1,24 @@
-What is AC voltage? A voltage in which the polarity alternates.
+The village of Longbourn was only one mile from Meryton; a most
+convenient distance for the young ladies, who were usually tempted
+thither three or four times a week, to pay their duty to their aunt and
+to a milliner’s shop just over the way. The two youngest of the family,
+Catherine and Lydia, were particularly frequent in these attentions;
+their minds were more vacant than their sisters.
 
-What is Admittance? (symbol "Y") Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens.
+And when nothing better offered, a walk to Meryton was necessary to amuse their morning
+hours and furnish conversation for the evening, and however bare of news
+the country in general might be. They always contrived to learn some
+from their aunt. At present, indeed, they were well supplied both with
+news and happiness by the recent arrival of a militia regiment in the
+neighbourhood, it was to remain the whole winter, and Meryton was the
+headquarters.
 
-What is alkaline cell? A primary cell that delivers more current than a carbon-zinc cell. Also known as an "alkaline manganese cell".
-
-What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection.
-
-What is alpha? Ratio of collector current to emitter current in a bipolar junction transistor (BJT) Greek letter alpha "a" is the symbol used.
-
-What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats.
-
-What is alternator? Name for an AC generator.
-
-What is ammeter? A meter used to measure current.
+Their visits to Mrs. Phillips were now productive of the most
+interesting intelligence. Every day added something to their knowledge
+of the officers’ names and connections. Their lodgings were not long a
+secret, and at length they began to know the officers themselves. Mr
+Phillips visited them all, and this opened to his nieces a store of
+felicity unknown before. They could talk of nothing but officers; and
+Mr. Bingley’s large fortune, the mention of which gave animation
+to their mother, was worthless in their eyes when opposed to the
+regimentals of an ensign.

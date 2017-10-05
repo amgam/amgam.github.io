@@ -1,15 +1,22 @@
-What is AC voltage? A voltage in which the polarity alternates.
+Mr. Bingley followed his advice. Mr. Darcy walked off; and Elizabeth
+remained with no very cordial feelings toward him. She told the story,
+however, with great spirit among her friends; for she had a lively,
+playful disposition, which delighted in anything ridiculous.
 
-What is Admittance? (symbol "Y") Measure of how easily AC will flow through a circuit. Admittance is the reciprocal of impedance and is measured in siemens.
+The evening altogether passed off pleasantly to the whole family. Mrs.
+Bennet had seen her eldest daughter much admired by the Netherfield
+party. Mr. Bingley had danced with her twice, and she had been
+distinguished by his sisters. Jane was as much gratified by this as
+her mother could be, though in a quieter way.
 
-What is alkaline cell? A primary cell that delivers more current than a carbon-zinc cell. Also known as an "alkaline manganese cell".
-
-What is alligator clip? Spring clip on the end of a test lead used to make a temporary connection.
-
-What is alpha? Ratio of collector current to emitter current in a bipolar junction transistor (BJT) Greek letter alpha "a" is the symbol used.
-
-What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats.
-
-What is alternator? Name for an AC generator.
-
-What is ammeter? A meter used to measure current.
+Elizabeth felt Jane’s pleasure. Mary had heard herself mentioned to Miss Bingley as the most
+accomplished girl in the neighbourhood. and Catherine and Lydia had been
+fortunate enough never to be without partners, which was all that they
+had yet learnt to care for at a ball. They returned, therefore, in good
+spirits to Longbourn, the village where they lived, and of which they
+were the principal inhabitants. They found Mr. Bennet still up. With
+a book he was regardless of time. and on the present occasion he had a
+good deal of curiosity as to the event of an evening which had raised
+such splendid expectations. He had rather hoped that his wife’s views on
+the stranger would be disappointed; but he soon found out that he had a
+different story to hear.
